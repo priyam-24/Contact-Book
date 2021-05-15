@@ -1,0 +1,160 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+}
+
+.container{
+	margin: 0 auto;
+	margin-left: 80px;
+	margin-right: 80px;
+	min-height: 100vh;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+.hero{
+	color: white;
+	background:  linear-gradient(90deg, rgb(43, 53, 61) 0%, rgb(71,243, 255) 150%);	
+	padding: 1em 0; 
+	border: 4px solid yellow;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius: 25px;
+	border-top: none;
+}
+
+.back-btn{
+	color: #fff;
+	font-size: 1.7em;
+	padding-left: 1em;
+	font-family: 'Inter', sans-serif;
+	margin-left: 15px;
+}
+
+.back-btn:hover{
+	
+	padding-left: 1em;
+	color: yellow;
+}
+
+.contact-info{
+	padding: 1.5em;
+}
+
+
+.hero-info{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.relationship-hero{
+	width: 5em;
+	text-align: center;
+	padding: .4em .5em;
+	border-radius: 100px;
+	border-top-left-radius: 0;
+	margin: 0;
+	background-color:yellow;
+}
+
+.sep{
+	margin-left: 130px;
+	margin-right: 130px;
+	background-color: #94979b;
+	border: 4px solid yellow;
+	border-radius: 15px;
+	border-top: none;
+}
+
+
+.info-line{
+	display: flex;
+	color: rgb(0, 0, 0);
+	width: 80%;
+	margin: 0 auto;
+	margin-left: 90px;
+	padding: 1em 2em;
+	margin-top: 2em;
+	border-radius: 20px;
+	background-color:white;
+}
+
+p{
+	margin: 0;
+	padding-left: 2em;
+}
+
+.icon-gradient{
+	background: linear-gradient(90deg, rgb(252, 215, 5) 0%, rgb(237, 240, 69) 100%);
+	border-radius: 100px;
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+.location{
+	padding: .5em .6em;
+}
+
+.type{
+	border: none;
+	background: none;
+	padding-left: 2em;
+	font-size: 1.2em;
+	color: rgb(0, 0, 0);
+	outline: none;
+}
+
+.button-container{
+	background-color: #50464a;
+	padding: 2em 3.5em;
+	color: #fff;
+}
+
+.update-contact{
+	display: flex;
+	color: #fff;
+	width: 35%;
+	margin: 0 auto;
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 45px;
+	background:  rgb(43, 154, 161);	
+	cursor: pointer;
+}
+
+.update-contact:hover{
+	border: 3px solid yellow;
+	border-radius: 45px;
+	color: green;
+}
+
+.button{
+	 border: none;
+	 color: #fff;
+	 font-size: 1.3em;
+	 font-weight: bold;
+	 padding-left: .5em;
+	 outline: none;
+	 cursor: pointer;
+	 align-items: center;
+	 background-color:  rgb(43, 154, 161);
+}
+
+
+.del{
+	padding-top: 0px;
+}
+
+.delhover:hover{
+	border: 3px solid red;
+	border-radius: 45px;
+	color: red;
+}

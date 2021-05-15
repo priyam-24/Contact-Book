@@ -1,0 +1,159 @@
+body{
+	font-family: 'Inter', sans-serif;
+	margin: auto;
+	background-color: rgb(20, 68, 100);
+}
+
+.container{
+	margin: auto;
+	background-color: white;
+	min-height: 100vh;
+}
+
+a{
+	text-decoration: none;
+}
+
+#conbook{
+	color: rgb(71, 243, 255);
+	font-size: 1.5em;
+	
+}
+
+#searchicon:hover{
+	background-color: rgb(247, 210, 0);
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 7px;
+	cursor: pointer;
+}
+
+.header{
+	display: flex;
+	justify-content: space-evenly;
+	color: #fff;
+	background: linear-gradient(90deg, rgb(43, 53, 61) 0%, rgb(71,243, 255) 150%);
+	padding: 2em 0;
+	border: 4px solid yellow;
+	border-top: none;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	
+}
+
+.contact-search{
+	font-size: 1.2em;
+	padding:.3em .3em;
+	border-radius: 100px;
+	border:1px solid white;
+	outline: none;
+	inline-size: 550px;
+	
+}
+
+.hello-msg{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#log-out{
+	font-size: 15px;
+	color: beige;
+	transition: .5s;
+}
+
+#log-out:hover{
+	color: orangered;
+}
+
+.fulllength{
+	border: 4px solid yellow;
+	border-radius: 15px;
+	border-top: none;
+}
+
+
+.contacts-library{
+	padding-top: 18px;
+    background: white;
+}
+
+.add{
+	color: white;
+	font-size: 1.5em;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: .5em;
+	transition: 0.5s;
+	
+}
+
+i{
+	color: #fff;
+	font-size: 1.5em;
+	transition: 0.5s;
+}
+
+
+.add:hover{
+	color: black;
+	border-color: black;
+	background-color: cyan;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	padding-right: 50px;
+}
+
+hr{
+	border: 1px solicontactd #494a4b;
+}
+
+.list__item{
+	list-style: none;
+}
+
+.relationship{
+	color: #fff;
+	width: 9em;
+	text-align: center;
+	padding: .3em .4em;
+	border-radius: 100px;
+	background-color: #75A85E;
+}
+
+
+.contact-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5em;
+	transition: 0.3s;
+	color: black;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-right: 1em;
+	
+}
+
+.contact-section:hover{
+	background-color: #48494a;
+	color: cyan;
+	border: 1px solid #48494a;
+	border-radius: 15px;
+}
+
+.call:hover{
+	color: yellow;
+	
+}
+
+
+.text{
+	padding-left: 1em;
+	padding-right: 1em;
+}

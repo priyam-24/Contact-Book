@@ -1,0 +1,59 @@
+body,
+html {
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1512626120412-faf41adb4874?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
+    height: 100%;
+}
+
+.user_card {
+    margin-top: 120px;
+    margin-right: 68%;
+	width: 350px;
+    height: 450px;
+    border-radius : 20px;
+    background : rgba(0,0,0,0.8);
+    color: #fff;
+    position: relative;
+    padding: 40px 30px;            
+}
+
+.form_container {
+	margin-top: 15px;
+}
+
+.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.login_container {
+	padding: 0 2rem;
+}
+
+.input-group-text {
+    background-color: #14c3e2 !important;
+    color: white !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,
+.input_pass:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+#signinlogo{
+    border: 2px solid yellow;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+}
+
+#signinlogo:hover{
+    color: black;
+    background-color: yellow;
+    border-radius: 25px;
+    font-weight: bold;
+}
